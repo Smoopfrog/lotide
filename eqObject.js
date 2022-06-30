@@ -25,8 +25,8 @@ const eqArrays = function(arrayOne, arrayTwo) {
 
 // eqObjects function
 const eqObjects = function(object1, object2) {
-  objectKeys1 = Object.keys(object1);
-  objectKeys2 = Object.keys(object2);
+  let objectKeys1 = Object.keys(object1);
+  let objectKeys2 = Object.keys(object2);
 
   // Checking the lenght of each object
   if (objectKeys1.length !== objectKeys2.length) {
@@ -34,8 +34,11 @@ const eqObjects = function(object1, object2) {
   }
   for (const key of objectKeys1) {
     // Checking for arrays
-    if(Array.isArray(object1[key]) && Array.isArray[object2[key]]) {
-      eqArrays(object1[key], object2[key])
+    if (Array.isArray(object1[key]) && Array.isArray(object2[key])) {
+      // Using eqArrays to compare arrays
+      if (!eqArrays(object1[key], object2[key])) {
+        return false;
+      }
     } else {
       //Comparing the contents of each object
       if (object1[key] === objectKeys2[key]) {
