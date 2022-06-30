@@ -21,7 +21,6 @@ const countOnly = function(allItems, itemsToCount) {
       }
     }
   }
-  
   return results;
 };
 

@@ -14,6 +14,7 @@ const countLetters = function(str) {
   //Loop through the string
   for (const letter of str) {
     //Increment the letters on the object
+
     if (letterCount[letter]) {
       letterCount[letter] += 1;
     } else {
