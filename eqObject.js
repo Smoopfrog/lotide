@@ -2,7 +2,7 @@ const assertEqual = require('./assertEqual');
 const eqArrays = require('./eqArrays');
 
 // eqObjects function
-const eqObject = function(object1, object2) {
+const eqObject = (object1, object2) => {
   let objectKeys1 = Object.keys(object1);
   let objectKeys2 = Object.keys(object2);
 

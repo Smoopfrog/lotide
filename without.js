@@ -1,6 +1,6 @@
 const assertArraysEqual = require('./assertArraysEqual');
 
-const without = function(source, itemsToRemove) {
+const without = (source, itemsToRemove) => {
   // Copy the source array to a new array
   let newArray = [...source];
 

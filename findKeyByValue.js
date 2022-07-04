@@ -1,17 +1,17 @@
 const assertEqual = require('./assertEqual');
 
 //findKeyByValue function
-const findKeyByValue = function(obj, val) {
+const findKeyByValue = (obj, val) => {
   for (const key in obj) {
     if (obj[key] === val) {
       return key;
     }
   }
-}
+};
 
 module.exports = findKeyByValue;
 // Test
-// const bestTVShowsByGenre = { 
+// const bestTVShowsByGenre = {
 //   sci_fi: "The Expanse",
 //   comedy: "Brooklyn Nine-Nine",
 //   drama:  "The Wire"

@@ -1,7 +1,7 @@
 const assertEqual = require('./assertEqual');
 
 // Count only function
-const countOnly = function(allItems, itemsToCount) {
+const countOnly = (allItems, itemsToCount) => {
   const results = {};
 
   for (const item of allItems) {

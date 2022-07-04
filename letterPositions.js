@@ -2,7 +2,7 @@ const assertArraysEqual = require('./assertArraysEqual');
 
 
 // Letter position function
-const letterPositions = function(sentence) {
+const letterPositions = sentence => {
   const results = {};
 
   // Loop through the sentence
@@ -12,7 +12,7 @@ const letterPositions = function(sentence) {
       results[sentence[i]].push(i);
     } else {
       results[sentence[i]] = [];
-      results[sentence[i]].push(i); 
+      results[sentence[i]].push(i);
     }
 
   }

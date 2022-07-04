@@ -1,3 +1,4 @@
+// Imports
 const assertArraysEqual = require('./assertArraysEqual');
 const assertEqual = require('./assertEqual');
 const assertObjectsEqual = require('./assertObjectsEqual');
@@ -15,26 +16,22 @@ const tail = require('./tail');
 const takeUntil = require('./takeUntil');
 const without = require('./without');
 
-
-
+// Exports
 module.exports = {
-
-
-
-  assertArraysEqual: assertArraysEqual,
-  assertEqual: assertEqual,
-  assertObjectsEqual: assertObjectsEqual,
-  countLetters: countLetters,
-  countOnly: countOnly,
-  eqArrays: eqArrays,
-  eqObject: eqObject,
-  findKey: findKey,
-  findKeyByValue: findKeyByValue,
-  head: head,
-  letterPositions: letterPositions,
-  map: map,
-  middle: middle,
-  tail: tail,
-  takeUntil: takeUntil,
-  without: without
+  assertArraysEqual,
+  assertEqual,
+  assertObjectsEqual,
+  countLetters,
+  countOnly,
+  eqArrays,
+  eqObject,
+  findKey,
+  findKeyByValue,
+  head,
+  letterPositions,
+  map,
+  middle,
+  tail,
+  takeUntil,
+  without
 };

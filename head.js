@@ -1,7 +1,7 @@
 const assertEqual = require('./assertEqual');
 
 //Head function
-const head = function(array) {
+const head = array => {
   let headVal = array[0];
   return headVal;
 };

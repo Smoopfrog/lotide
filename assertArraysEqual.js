@@ -1,7 +1,7 @@
-const eqArrays = require('./eqArrays')
+const eqArrays = require('./eqArrays');
 
 // Prints a test for matching arrays
-const assertArraysEqual = function(arrayOne, arrayTwo) {
+const assertArraysEqual = (arrayOne, arrayTwo) => {
 
   if (eqArrays(arrayOne, arrayTwo)) {
     console.log(`🔥🔥🔥 Assertion Passed: ${arrayOne} === ${arrayTwo}`);
