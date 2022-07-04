@@ -12,11 +12,11 @@ This project was created and published by me as part of my learnings at Lighthou
 
 **Install it:**
 
-`npm install @Smoopfrog/lotide`
+`npm install @j_stinson/lotide`
 
 **Require it:**
 
-`const _ = require('@Smoopfrog/lotide');`
+`const _ = require('@j_stinson/lotide');`
 
 **Call it:**
 
