@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@Smoopfrog/lotide",
   "version": "1.0.0",
-  "description": "lotide function library ",
+  "description": "A mini clone of Lodash to practice creating functions",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
